@@ -1,0 +1,9 @@
+{
+  "name": "Fuckometer",
+  "short_name": "Fuckometer",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#000",
+  "description": "A web app offered as a public service.",
+  "orientation": "portrait"
+}

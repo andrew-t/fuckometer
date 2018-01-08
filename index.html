@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Fuckometer</title>
+	<script type="text/javascript" src="script.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="manifest" href="/manifest.webmanifest">
+</head>
+<body>
+
+	<h1>The Fuckometer</h1>
+
+	<section>
+		<h1>Fucks Given</h1>
+		<div class="counter">
+			<div class="digit">
+				<div class="number">0</div>
+			</div>
+			<div class="digit">
+				<div class="number">0</div>
+			</div>
+			<div class="digit" id="nudgee">
+				<div class="number">0</div>
+				<div class="number">1</div>
+			</div>
+		</div>
+	</section>
+
+	<button id="nudger">Give a Fuck</button>
+
+	<section class="hidden alert" id="error-box">
+		<div class="popup">
+			<h1>Error</h1>
+			<p id="error-message">Fuck not found.</p>
+			<button id="ok">OK</button>
+		</div>
+	</section>
+
+</body>
+</html>
